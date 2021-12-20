@@ -27,4 +27,6 @@ Application can be run in **two** ways as follows:
 * Hit http://localhost:8080/setup - It will load data from input.txt
 * Hit http://localhost:8080/balance 
     * It will show the result in browser and in console as well.
-    
+ ### Three - Using CMD
+ * Provide input.txt file through cmd.
+ * it will read and produce the result 

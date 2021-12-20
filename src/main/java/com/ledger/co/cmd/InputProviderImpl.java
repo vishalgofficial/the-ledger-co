@@ -11,11 +11,13 @@ import lombok.AllArgsConstructor;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
+import java.io.File;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
 import static com.ledger.co.cmd.FileUtil.getInputStreamFromFile;
+import static com.ledger.co.cmd.FileUtil.getInputStreamFromFileCmd;
 import static java.lang.Integer.parseInt;
 import static java.util.Arrays.asList;
 
@@ -36,6 +38,15 @@ public class InputProviderImpl implements InputProviderService {
         this.paymentRequests = new ArrayList<>();
         this.balanceRequests = new ArrayList<>();
         inputProvider(getInputStreamFromFile());
+        executeCommandsLoan();
+        executeCommandPayments();
+    }
+
+    public void setupForCommand(File file) throws IOException {
+        this.loanRequests = new ArrayList<>();
+        this.paymentRequests = new ArrayList<>();
+        this.balanceRequests = new ArrayList<>();
+        inputProvider(getInputStreamFromFileCmd(file));
         executeCommandsLoan();
         executeCommandPayments();
     }
