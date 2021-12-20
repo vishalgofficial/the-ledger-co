@@ -1,0 +1,23 @@
+[
+  {
+    "bankName": "IDIDI",
+    "borrowerName": "Dale",
+    "principalAmt": 5000,
+    "tenure": 1,
+    "roi": 6
+  },
+  {
+    "bankName": "MBI",
+    "borrowerName": "Harry",
+    "principalAmt": 10000,
+    "tenure": 3,
+    "roi": 7
+  },
+  {
+    "bankName": "UON",
+    "borrowerName": "Shelly",
+    "principalAmt": 15000,
+    "tenure": 2,
+    "roi": 9
+  }
+]

@@ -1,0 +1,21 @@
+[
+  {
+    "bankName": "IDIDI",
+    "borrowerName": "Dale",
+    "lumpsumAmt": 1000,
+    "emiMonth": 5
+  },
+  {
+    "bankName": "MBI",
+    "borrowerName": "Harry",
+    "lumpsumAmt": 5000,
+    "emiMonth": 10
+  },
+  {
+    "bankName": "UON",
+    "borrowerName": "Shelly",
+    "lumpsumAmt": 7000,
+    "emiMonth": 12
+  }
+
+]

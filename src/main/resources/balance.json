@@ -1,0 +1,22 @@
+[
+  {
+    "bankName": "IDIDI",
+    "borrowerName": "Dale",
+    "emiNo": 3
+  },
+  {
+    "bankName": "IDIDI",
+    "borrowerName": "Dale",
+    "emiNo": 6
+  },
+  {
+    "bankName": "MBI",
+    "borrowerName": "Harry",
+    "emiNo": 12
+  },
+  {
+    "bankName": "UON",
+    "borrowerName": "Shelly",
+    "emiNo": 12
+  }
+]
