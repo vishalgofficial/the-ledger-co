@@ -99,7 +99,7 @@
 						<manifest>
 							<addClasspath>true</addClasspath>
 							<!-- This is the main class of your program which will be executed-->
-							<mainClass>com.ledger.co.LedgerSystemApplication</mainClass>
+							<mainClass>com.ledger.co.Geektrust</mainClass>
 						</manifest>
 					</archive>
 				</configuration>

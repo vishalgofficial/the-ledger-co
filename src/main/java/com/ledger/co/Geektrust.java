@@ -17,14 +17,14 @@ import java.util.List;
 
 @SpringBootApplication
 @EnableSwagger2
-public class LedgerSystemApplication implements ApplicationRunner {
+public class Geektrust implements ApplicationRunner {
     @Autowired
     private InputProviderImpl inputProvider;
     private static List<String> argsCmd;
 
     public static void main(String[] args) {
         argsCmd = Arrays.asList(args);
-        SpringApplication.run(LedgerSystemApplication.class, args);
+        SpringApplication.run(Geektrust.class, args);
     }
 
     @Override
